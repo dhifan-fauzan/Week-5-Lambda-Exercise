@@ -1,3 +1,4 @@
-now = [('English', 88), ('Science', 90), ('Maths', 97), ('Social sciences', 82)]
-now.sort(key = lambda x: x[1])
-print(now)
+def multiplication(a, b):
+    return a * b
+
+print(multiplication(int(input("Enter first number: ")),int(input("Enter second number: "))))
